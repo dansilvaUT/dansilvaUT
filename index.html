@@ -39,76 +39,103 @@
             <div class="title-container container">
                 <h1 class="display-4">Dan Silva</h1>
                 <h3 class="title">Full Stack Developer</h3>
-                <i class="fas fa-sort-down"></i>
+                <a href='#about' class='arrow-link'><i class="fas fa-sort-down"></i></a>
             </div>
         </div>
-        <div class="container secondary-content container-sm">
-            <div class="about-intro">
-                <h2>About</h2>
-                <div class='row'>
-                    <div class='col-md about-description'>
-                        <p>My name is Dan Silva. I'm a Full Stack Developer who loves to code! I've always been
-                            fascinated by technology and had the opportuntiy to study it in college and
-                            was immediatly hooked on software development. I love being able to think of an
-                            idea then being able to write that idea out with code and bring to life.
-                        </p>
-                        <p>I have an AAS degree in Computer Science and Information Systems as well as certification of
-                            completion
-                            from DevMountain for taking
-                            their Full-Time Web Development immersive program, in Lehi Utah.
-                        </p>
-                    </div>
-                    <div class='col-md pic-div'>
-                        <img class="about-pic" src="images/Dan.JPG" alt="dan">
-                    </div>
-                </div>
-            </div>
-            <div class="container tech-stack-container">
-                <h2>My Tech Stack</h2>
-                <div class="container">
+        <div class="container-fluid secondary-content">
+            <h1 id='about'>About</h1>
+            <div class=" container about-intro" >
+                <div class='page-content'>
                     <div class='row'>
-                        <div class='col skill-icons'>
-                            <i class="devicon-html5-plain-wordmark colored"></i>
-                            <i class="devicon-css3-plain-wordmark colored"></i>
-                            <i class="devicon-bootstrap-plain-wordmark colored"></i>
-                            <i class="devicon-sass-original colored"></i>
-                            <i class="devicon-javascript-plain colored"></i>
-                            <i class="devicon-react-original-wordmark colored"></i>
-                            <i class="devicon-redux-original colored"></i>
-                            <i class="devicon-nodejs-plain colored"></i>
-                            <i class="devicon-express-original colored"></i>
-                            <i class="devicon-java-plain-wordmark colored"></i>
-                            <i class="devicon-postgresql-plain-wordmark colored"></i>
-                            <i class="devicon-mysql-plain-wordmark colored"></i>
-                            <i class="devicon-npm-original-wordmark colored"></i>
-                            <i class="devicon-git-plain-wordmark colored"></i>
+                        <div class='col-md about-description'>
+                            <p>My name is Dan Silva. I'm a Full Stack Developer who loves to code! I've always been
+                                fascinated by technology and had the opportuntiy to study it in college and
+                                was immediatly hooked on software development. I love being able to think of an
+                                idea then being able to write that idea out with code and bring to life.
+                            </p>
+                            <p>I have an AAS degree in Computer Science and Information Systems from Salt Lake Community College as well as certification
+                                of
+                                completion
+                                from DevMountain for taking
+                                their Full-Time Web Development immersive program, in Lehi Utah.
+                            </p>
+                            <blockquote>
+                                <span>"Hard work beats talent when talent doesn't work hard"</span>
+                                <cite>- Tim Notke</cite>
+                            </blockquote>
+                        </div>
+                        <div class='col-md pic-div'>
+                            <img class="about-pic img-fluid" src="images/Dan.JPG" alt="dan">
                         </div>
                     </div>
-                    <!-- <i class="devicon-linkedin-plain colored"></i> -->
-                    <!-- <i class="devicon-github-original-wordmark colored"></i> -->
                 </div>
+
+            </div>
+        </div>
+        <div class="container tech-stack-container">
+            <h2>My Tech Stack</h2>
+            <div class="container">
+                <div class='row'>
+                    <div class='col skill-icons'>
+                        <i class="devicon-html5-plain-wordmark colored"></i>
+                        <i class="devicon-css3-plain-wordmark colored"></i>
+                        <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                        <i class="devicon-sass-original colored"></i>
+                        <i class="devicon-javascript-plain colored"></i>
+                        <i class="devicon-react-original-wordmark colored"></i>
+                        <i class="devicon-redux-original colored"></i>
+                        <i class="devicon-nodejs-plain colored"></i>
+                        <i class="devicon-express-original colored"></i>
+                        <i class="devicon-java-plain-wordmark colored"></i>
+                        <i class="devicon-postgresql-plain-wordmark colored"></i>
+                        <i class="devicon-mysql-plain-wordmark colored"></i>
+                        <i class="devicon-npm-original-wordmark colored"></i>
+                        <i class="devicon-git-plain-wordmark colored"></i>
+                    </div>
+                </div>
+                <!-- <i class="devicon-linkedin-plain colored"></i> -->
             </div>
         </div>
         <div class="container projects">
             <h2>My Work</h2>
-            <div class="container-fluid contenedor text-center">
-                <div class=" container text-center">
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container_foto">
-                        <div class="ver_mas text-center">
-                            <span id="click" class="lnr lnr-eye"></span>
-                        </div>
-                        <article class="text-left">
-                            <h3>My Canyon</h3>
+            <div class='row'>
+                <div class='col-lg-6 col-md-6 project'>
+                    <img src="./images/mycanyon.png" alt="my_canyon_placeholder" class='img-fluid project-img'>
+                    <div class='overlay'>
+                        <h3>My Canyon</h3>
+                        <article>
+                            <p>My Canyon is a social media app that allows users to post, comment
+                                and rate canyons. Additionally, users can check the status of the weather of a
+                                canyon using the Open Weather API. Lastly, users can chat with other users
+                                of the app using web sockets.
+                            </p>
                         </article>
-                        <img src="./images/mycanyon.png" alt="" class='img-fluid'>
+                        <button type="button" class="btn btn-outline-primary">See Live</button>
+                        <button type="button" class="btn btn-outline-primary">See Repo</button>
                     </div>
                 </div>
             </div>
 
-
         </div>
         <div class="container contact">
-            <p>Contact info here</p>
+            <h2>Let's Connect!</h2>
+            <div class='row'>
+                <div class='col-md-12 contact-container'>
+                    <article class='contact-info'>
+                        <span>
+                            <i class="fas fa-envelope contact-icon"></i>
+                            <a>dan13silv@gmail.com</a>
+                        </span>
+                        <span>
+                            <i class="devicon-linkedin-plain contact-linkedin contact-icon"></i>
+                            <a href='https://www.linkedin.com/in/danmsilva'>LinkedIn</a></span>
+                        <span>
+                            <i class="devicon-github-original-wordmark contact-icon "></i>
+                            <a href='https://github.com/dansilvaUT'>GitHub</a>
+                        </span>
+                    </article>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Bootstrap JS -->

@@ -5,7 +5,6 @@ html {
 body {
     font-family: 'Nunito', sans-serif;
     letter-spacing: 1px;
-	/* background-color: #000e4e; */
 	background-color: #f3f3f3;
 }
 
@@ -13,9 +12,27 @@ body {
     padding: 0;
 }
 
+.navbar {
+	background-color: #050573;
+}
+
 .navbar a {
     color: white;
     font-size: 25px;
+}
+
+.nav-name {
+	font-weight: bold!important;
+	font-size: 35px!important;
+}
+
+.fa-bars {
+	color: white;
+	font-size: 30px;
+}
+
+.navbar-toggler {
+	border: 2px solid white;
 }
 
 .jumbotron {
@@ -59,6 +76,12 @@ body {
     color: black;
 }
 
+.secondary-content h1 {
+    text-align: center;
+    font-size: 4rem;
+	color: black;
+}
+
 .about-intro {
     background-color: white;
     height: auto;
@@ -95,7 +118,7 @@ body {
 
 blockquote {
 	margin-top: 5px;
-	color: green;
+	color: #0505ca;
 }
 
 blockquote span {
@@ -104,29 +127,30 @@ blockquote span {
 }
 
 .tech-stack-container {
-    background-color: rgb(230 230 230);
-    margin-top: 10px;
-	-webkit-box-shadow: inset 0px 0px 22px -5px rgba(0,0,0,0.75);
-	-moz-box-shadow: inset 0px 0px 22px -5px rgba(0,0,0,0.75);
-	box-shadow: inset 0px 0px 22px -5px rgba(0,0,0,0.75);
-
+	background-color: #050573;
+	display: flex;
+	align-items: baseline;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	min-height: 80vh;
 }
 
-.tech-stack-container h3 {
-    text-align: center;
+.tech-stack-container h1 {
+	color: white;
+	font-size: 4rem;
+	margin: 0 auto;
 }
 
-.secondary-content h1 {
-    text-align: center;
-    font-size: 4rem;
-	color: black;
+.skill-container {
+	margin-top: 50px;
 }
 
 .skill-icons {
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 15px;
 }
 
@@ -139,11 +163,12 @@ blockquote span {
 }
 
 .projects {
-	background-color: rgb(230 230 230);
-	-webkit-box-shadow: inset 0px 0px 22px -5px rgba(0,0,0,0.75);
-	-moz-box-shadow: inset 0px 0px 22px -5px rgba(0,0,0,0.75);
-	box-shadow: inset 0px 0px 22px -5px rgba(0,0,0,0.75);
+	margin-top: 50px;
+}
 
+.projects-row {
+	background-color: white;
+	padding: 10px;
 }
 
 .projects h2 {
@@ -153,6 +178,7 @@ blockquote span {
 
 .project {
 	padding: 0;
+	margin: 10px auto;
 }
 
 .project-img,
@@ -165,39 +191,79 @@ blockquote span {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color: #008bbad8;
+	background-color: #050573b8;
 	overflow: hidden;
 	width: 100%;
 	height: 0;
 	transition: .5s ease;
 	display: flex;
 	flex-direction: column;
-	padding: 0 5px;
+	padding: 0 5px 0 5px;
+	color: white;
   }
 
-  .project:hover .overlay {
-	height: 100%;
-  }
-
-  .contact h2 {
-	  text-align: center;
-  }
-
-.contact-container {
-	background-color: rgb(230 230 230);
-	display: flex;
-	justify-content: center;
-	-webkit-box-shadow: inset 0px 0px 22px -5px rgba(0,0,0,0.75);
-	-moz-box-shadow: inset 0px 0px 22px -5px rgba(0,0,0,0.75);
-	box-shadow: inset 0px 0px 22px -5px rgba(0,0,0,0.75);
-
+.overlay h3 {
+	text-align: center;
 }
 
-  .contact-info {
-	  display: flex;
-	  flex-direction: column;
-	  justify-content: center;
-  }
+.button-box {
+	margin: 0 auto;
+}
+
+.button-box button {
+	display: inline;
+	margin: 0 auto;
+}
+
+.project-button a,
+.project-button a:hover {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.project-button {
+	border-color: #12e012;
+	border-width: 2px;
+}
+
+.project-button:hover {
+	border-color: #12e012;
+	background-color: #12e012;
+}
+
+.project:hover .overlay {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+}
+
+.contact {
+	background-color: #050573;
+	min-height: 70vh;
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+	color: white;
+}
+
+.contact h1 {
+	text-align: center;
+	font-size: 4rem;
+	margin-bottom: 70px;
+}
+
+.contact-container {
+	display: flex;
+	justify-content: center;
+}
+
+.contact-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
 
 .contact-icon {
 	font-size: 3rem;
@@ -206,7 +272,7 @@ blockquote span {
 
 
 span a {
-	color: black;
+	color: white;
 	font-size: 2rem;
 }
 
@@ -230,5 +296,51 @@ span a:hover {
     }
 }
 
+@media only screen and (max-width: 1200px) {
+	.about-description p {
+	  font-size: 1rem;
+	}
+  }
 
+  @media only screen and (max-width: 990px) {
+	.about-pic {
+		height: 350px;
+		width:350px;
+	}
+
+	.about-intro {
+		padding: 10px;
+	}
+
+	.colored {
+		font-size: 50px;
+		padding: 10px;
+	}
+  }
+
+  @media only screen and (max-width: 380px) {
+	.title-container h1 {
+		font-size: 3rem;
+	}
+	
+	.title-container h3 {
+		font-size: 1rem;
+	}
+  }
+
+  @media only screen and (max-width: 560px) {
+	.overlay h3 {
+		font-size: 1.2rem;
+	}
+
+	.overlay p {
+		font-size: 1rem;
+	}
+  }
+
+  @media only screen and (max-width: 470px) {
+	.project-descrtiption {
+		display: none;
+	}
+  }
 

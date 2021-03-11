@@ -22,16 +22,16 @@
 <body>
     <div class="main container-fluid">
         <nav class="navbar fixed-top navbar-expand-lg">
-            <a class="navbar-brand" href="#">Dan Silva</a>
+            <a class="navbar-brand nav-name" href="#">Dan Silva</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav ">
-                    <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="#">Projects</a>
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </div>
             </div>
         </nav>
@@ -44,7 +44,7 @@
         </div>
         <div class="container-fluid secondary-content">
             <h1 id='about'>About</h1>
-            <div class=" container about-intro" >
+            <div class=" container about-intro">
                 <div class='page-content'>
                     <div class='row'>
                         <div class='col-md about-description'>
@@ -53,7 +53,8 @@
                                 was immediatly hooked on software development. I love being able to think of an
                                 idea then being able to write that idea out with code and bring to life.
                             </p>
-                            <p>I have an AAS degree in Computer Science and Information Systems from Salt Lake Community College as well as certification
+                            <p>I have an AAS degree in Computer Science and Information Systems from Salt Lake Community
+                                College as well as certification
                                 of
                                 completion
                                 from DevMountain for taking
@@ -72,55 +73,69 @@
 
             </div>
         </div>
-        <div class="container tech-stack-container">
-            <h2>My Tech Stack</h2>
-            <div class="container">
-                <div class='row'>
-                    <div class='col skill-icons'>
-                        <i class="devicon-html5-plain-wordmark colored"></i>
-                        <i class="devicon-css3-plain-wordmark colored"></i>
-                        <i class="devicon-bootstrap-plain-wordmark colored"></i>
-                        <i class="devicon-sass-original colored"></i>
-                        <i class="devicon-javascript-plain colored"></i>
-                        <i class="devicon-react-original-wordmark colored"></i>
-                        <i class="devicon-redux-original colored"></i>
-                        <i class="devicon-nodejs-plain colored"></i>
-                        <i class="devicon-express-original colored"></i>
-                        <i class="devicon-java-plain-wordmark colored"></i>
-                        <i class="devicon-postgresql-plain-wordmark colored"></i>
-                        <i class="devicon-mysql-plain-wordmark colored"></i>
-                        <i class="devicon-npm-original-wordmark colored"></i>
-                        <i class="devicon-git-plain-wordmark colored"></i>
-                    </div>
+        <div class="container-fluid tech-stack-container">
+            <h1>My Tech Stack</h1>
+            <div class="container skill-container">
+                <div class='col skill-icons'>
+                    <i class="devicon-html5-plain-wordmark colored"></i>
+                    <i class="devicon-css3-plain-wordmark colored"></i>
+                    <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                    <i class="devicon-sass-original colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                    <i class="devicon-react-original-wordmark colored"></i>
+                    <i class="devicon-redux-original colored"></i>
+                    <i class="devicon-nodejs-plain colored"></i>
+                    <i class="devicon-express-original colored"></i>
+                    <i class="devicon-java-plain-wordmark colored"></i>
+                    <i class="devicon-postgresql-plain-wordmark colored"></i>
+                    <i class="devicon-mysql-plain-wordmark colored"></i>
+                    <i class="devicon-npm-original-wordmark colored"></i>
+                    <i class="devicon-git-plain-wordmark colored"></i>
                 </div>
-                <!-- <i class="devicon-linkedin-plain colored"></i> -->
             </div>
         </div>
-        <div class="container projects">
+        <div class="container projects" id='projects'>
             <h2>My Work</h2>
-            <div class='row'>
-                <div class='col-lg-6 col-md-6 project'>
+            <div class='row projects-row'>
+                <div class='col-lg-8 col-md-12 project'>
                     <img src="./images/mycanyon.png" alt="my_canyon_placeholder" class='img-fluid project-img'>
                     <div class='overlay'>
                         <h3>My Canyon</h3>
                         <article>
-                            <p>My Canyon is a social media app that allows users to post, comment
+                            <p class='project-descrtiption'>My Canyon is a social media app that allows users to post, comment
                                 and rate canyons. Additionally, users can check the status of the weather of a
                                 canyon using the Open Weather API. Lastly, users can chat with other users
                                 of the app using web sockets.
                             </p>
                         </article>
-                        <button type="button" class="btn btn-outline-primary">See Live</button>
-                        <button type="button" class="btn btn-outline-primary">See Repo</button>
+                        <div class='button-box'>
+                            <button type="button" class="btn btn-outline-primary project-button"><a href='http://128.199.3.80:3333/'>See Live</a></button>
+                            <button type="button" class="btn btn-outline-primary project-button"><a href='https://github.com/dansilvaUT/my-canyon'>See Repo</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-lg-8 col-md-12 project'>
+                    <p>Image coming soon!</p>
+                    <div class='overlay'>
+                        <h3>Message Box</h3>
+                        <article>
+                            <p class='project-descrtiption'>
+                                Message Box is an application that allows users to chat with other
+                                users of the app using web sockets as well as create rooms to allow
+                                more users to join.
+                            </p>
+                        </article>
+                        <!-- <button type="button" class="btn btn-outline-primary">See Live</button>
+                        <button type="button" class="btn btn-outline-primary">See Repo</button> -->
                     </div>
                 </div>
             </div>
 
         </div>
-        <div class="container contact">
-            <h2>Let's Connect!</h2>
+        <div class="container-fluid contact" id='contact'>
+            <h1>Let's Connect!</h1>
             <div class='row'>
-                <div class='col-md-12 contact-container'>
+                <div class='col-md-12 contact-container container'>
                     <article class='contact-info'>
                         <span>
                             <i class="fas fa-envelope contact-icon"></i>

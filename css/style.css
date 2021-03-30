@@ -262,6 +262,7 @@ span {
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    border: 2px solid white;
 }
 
 .project-image {
@@ -470,6 +471,13 @@ span {
 
     .contact-prompt {
         width: 320px;
+    }
+}
+
+@media(max-width: 560px){
+    .tech-icon {
+        font-size: 4rem;
+        padding: 15px;
     }
 }
 

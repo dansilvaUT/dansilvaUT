@@ -57,6 +57,7 @@ function smoothScroll(element){
 const projectURL = './assets/projects/',
       projects = [
         {name: 'My Canyon', type: 'featured', image: `${projectURL}mycanyon.png`, description: 'PERN based web application to allow users to rate, post and chat with other users about canyons', gitHub: 'https://github.com/dansilvaUT/my-canyon', liveSite: 'http://128.199.3.80:3333/'},
+        {name: 'Message Box', type: 'featured', image: `${projectURL}message-box-logo.png`, description: 'Chat application that allows users to chat with other users either as a pair or in groups.', gitHub: 'https://github.com/dansilvaUT/Message-Box', liveSite: ''}
       ]
 
 for(let j = 0; j < projects.length; j++){

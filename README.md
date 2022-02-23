@@ -1,5 +1,5 @@
 # 👋 Hello World, I'm Dan. 
-I'm a Software Engineer by day 👨🏻‍💻 and many other things by night or in between.
+I'm a Software Engineer by day 👨🏻‍💻 and many other things by night.
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=dansilvaUT&show_icons=true)
 
 My tech stack includes the following(all of which I'm proficient in):

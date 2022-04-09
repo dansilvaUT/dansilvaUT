@@ -1,110 +1,140 @@
 <!DOCTYPE html>
-<html lang='en'>
-<head>
-    <meta charset='UTF-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dan Silva | Full Stack Developer</title>
-    <meta name="description" content="Dan Silva's Portfolio">
-    <meta name="author" content="Daniel Silva">
+    <meta name="description" content="Dan Silva's Portfolio" />
+    <meta name="author" content="Daniel Silva" />
     <script>
-        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-        ga('create', 'UA-177830074-1', 'auto');
-        ga('send', 'pageview');
+      window.ga =
+        window.ga ||
+        function () {
+          (ga.q = ga.q || []).push(arguments);
+        };
+      ga.l = +new Date();
+      ga("create", "UA-177830074-1", "auto");
+      ga("send", "pageview");
     </script>
-    <script async src='https://www.google-analytics.com/analytics.js'></script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
     <!-- End Google Analytics -->
-    <link rel='shortcut icon' type='image/png' href='./assets/favicon.ico'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans&display=swap' rel='stylesheet'>
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
     <!-- Font awesome icons -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
-    <link rel='stylesheet' type='text/css' href='css/reset.css'>
-    <link rel='stylesheet' type='text/css' href='css/style.css'>
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
     <header>
-        <img class='main-icon' src='images/logo.png' alt='Dan Silva Icon'/>
-        <i id='menu-btn' class="fas fa-bars" onclick='menuToggle()'></i>
-        <nav class='dropdown-menu'>
-            <p onclick="smoothScroll('.flex-container')">Home</p>
-            <p onclick="smoothScroll('.about-section')">About</p>
-            <p onclick="smoothScroll('.skills-section')">Skills</p>
-            <p onclick="smoothScroll('.projects-section')">Projects</p>
-            <p onclick="smoothScroll('.contact-section')">Contact</p>
-        </nav>
+      <img class="main-icon" src="images/logo.png" alt="Dan Silva Icon" />
+      <i id="menu-btn" class="fas fa-bars" onclick="menuToggle()"></i>
+      <nav class="dropdown-menu">
+        <p onclick="smoothScroll('.flex-container')">Home</p>
+        <p onclick="smoothScroll('.about-section')">About</p>
+        <p onclick="smoothScroll('.skills-section')">Skills</p>
+        <p onclick="smoothScroll('.projects-section')">Projects</p>
+        <p onclick="smoothScroll('.contact-section')">Contact</p>
+      </nav>
     </header>
-    <div class='landing-image'></div>
-    <section class='flex-container background-opacity'>
-        <section>
-            <h1 class='title-heading'>Dan Silva</h1>
-            <h3>Full Stack Developer</h3>
-            <div class='social-flex'>
-                <section class='icon-container'>
-                    <a href='https://www.linkedin.com/in/danmsilva/' target='_blank' rel='noreferrer'>
-                        <i class="devicon-linkedin-plain landing-icon"></i>
-                    </a>
-                    <a href='https://github.com/dansilvaUT' target='_blank' rel='noreferrer'>
-                        <i class="devicon-github-original-wordmark landing-icon"></i>
-
-                    </a>
-                    <a href='mailto: dan13silv@gmail.com' rel='noreferrer'>
-                        <i class="fas fa-envelope landing-icon"></i>
-                    </a>
-                </section>
-                <a href='DanielSilvaResume.pdf' target='_blank' rel='noreferrer'>
-                    <button class='resume-btn'>View my resume</button>
-                </a>
-            </div>
-        </section>
-    </section>
-    <section class='about-section background-opacity'>
-            <div class='headshot-container'>
-                <div class='headshot'></div>
-            </div>
-            <div class='about-me'>
-            <div >
-                <h3>About</h3>
-                <p class="about-description">I'm Daniel Silva, a Full Stack Developer. I love bringing ideas to life through code! If you have
-                    a solution for a tedius task, I've got the code to build it. I began coding in 2016 when I was obtaining
-                    my AAS in Computer Science in Info Systems through Salt Lake Community College. After graduating in 2019, 
-                    I enrolled in a coding bootcamp; Dev Mountain to expand and dive into web development. I learned a lot in 
-                    those 13 weeks and ever since completing DevMountain I'm on the lookout for awesome companies who build 
-                    things as teams. I'm a team player, who's always striving to improve. 
-                </p>
-            </div>
+    <div class="landing-image"></div>
+    <section class="flex-container background-opacity">
+      <section>
+        <h1 class="title-heading">Dan Silva</h1>
+        <h3>Full Stack Developer</h3>
+        <div class="social-flex">
+          <section class="icon-container">
+            <a
+              href="https://www.linkedin.com/in/danmsilva/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i class="devicon-linkedin-plain landing-icon"></i>
+            </a>
+            <a
+              href="https://github.com/dansilvaUT"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i class="devicon-github-original-wordmark landing-icon"></i>
+            </a>
+            <a href="mailto: dan13silv@gmail.com" rel="noreferrer">
+              <i class="fas fa-envelope landing-icon"></i>
+            </a>
+          </section>
+          <a href="DanielSilvaResume.pdf" target="_blank" rel="noreferrer">
+            <button class="resume-btn">View my resume</button>
+          </a>
         </div>
+      </section>
     </section>
-    <section class='skills-section background-opacity'>
-        <h3>My Stack</h3>
-        <section class='skills-flex'>
-            <i class="devicon-html5-plain-wordmark colored tech-icon"></i>
-            <i class="devicon-css3-plain-wordmark colored tech-icon"></i>
-            <i class="devicon-javascript-plain colored tech-icon"></i>
-            <i class="devicon-react-original-wordmark colored tech-icon"></i>
-            <i class="devicon-redux-original colored tech-icon"></i>
-            <i class="devicon-nodejs-plain colored tech-icon"></i>
-            <i class="devicon-express-original colored tech-icon"></i>
-            <i class="devicon-java-plain-wordmark colored tech-icon"></i>
-            <i class="devicon-postgresql-plain-wordmark colored tech-icon"></i>
-            <i class="devicon-mysql-plain-wordmark colored tech-icon"></i>
-        </section>
+    <section class="about-section background-opacity">
+      <div class="headshot-container">
+        <div class="headshot"></div>
+      </div>
+      <div class="about-me">
+        <div>
+          <h3>About</h3>
+          <p class="about-description">
+            I'm Dan Silva, a Full Stack Developer. I love bringing ideas to life
+            through code! If you have a solution for a tedius task, I've got the
+            code to build it. I began coding in 2016 while obtaining my AAS in
+            Computer Science in Info Systems through Salt Lake Community
+            College. After graduating in 2019, I enrolled in a coding bootcamp;
+            Dev Mountain to expand and dive into web development. With full
+            stack foundations learned at DevMountain coupled with my C.S.
+            fundamentals from college, I've developed and continue to develop a
+            strong software engineering foundation.
+          </p>
+        </div>
+      </div>
     </section>
-    <section class='projects-section background-opacity'>
-        <h3>Projects</h3>
-        <section class='featured-project-display'></section>
-        <!-- <h3>Mini Projects</h3>
+    <section class="skills-section background-opacity">
+      <h3>My Stack</h3>
+      <section class="skills-flex">
+        <i class="devicon-html5-plain-wordmark colored tech-icon"></i>
+        <i class="devicon-css3-plain-wordmark colored tech-icon"></i>
+        <i class="devicon-javascript-plain colored tech-icon"></i>
+        <i class="devicon-typescript-plain colored tech-icon"></i>
+        <i class="devicon-react-original-wordmark colored tech-icon"></i>
+        <i class="devicon-redux-original colored tech-icon"></i>
+        <i class="devicon-nodejs-plain colored tech-icon"></i>
+        <i class="devicon-express-original colored tech-icon"></i>
+        <i class="devicon-ruby-plain-wordmark colored tech-icon"></i>
+        <i class="devicon-rails-plain-wordmark colored tech-icon"></i>
+        <i class="devicon-postgresql-plain-wordmark colored tech-icon"></i>
+        <i class="devicon-mysql-plain-wordmark colored tech-icon"></i>
+      </section>
+    </section>
+    <section class="projects-section background-opacity">
+      <h3>Projects</h3>
+      <section class="featured-project-display"></section>
+      <!-- <h3>Mini Projects</h3>
         <section class='mini-project-display'></section> -->
     </section>
-    <section class='contact-section background-opacity'>
-        <h3>Contact Me</h3>
-        <p class='contact-prompt'>Please drop a line or email me if you'd like to learn more about me, because I'd like to learn more about you!</p>
-        <section class='contact-info'>
-            <p><i class="fas fa-mobile-alt"></i>: (801)-577-3656</p>
-            <p><i class="fas fa-envelope"></i>: dan13silv@gmail.com</p>
-        </section>
+    <section class="contact-section background-opacity">
+      <h3>Contact Me</h3>
+      <p class="contact-prompt">
+        Please drop a line or email me if you'd like to learn more about me,
+        because I'd like to learn more about you!
+      </p>
+      <section class="contact-info">
+        <p><i class="fas fa-mobile-alt"></i>: (801)-577-3656</p>
+        <p><i class="fas fa-envelope"></i>: dan13silv@gmail.com</p>
+      </section>
     </section>
-</body>
-<script src='index.js'></script>
+  </body>
+  <script src="index.js"></script>
 </html>
-

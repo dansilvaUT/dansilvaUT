@@ -55,7 +55,7 @@ span {
 .dropdown-menu {
   position: absolute;
   right: -100px;
-  top: 55px;
+  top: 45px;
   opacity: 0;
   transition: 0.8s;
   height: 240px;

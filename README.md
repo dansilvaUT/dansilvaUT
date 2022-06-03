@@ -19,6 +19,7 @@ My tech stack includes the following(all of which I'm proficient in):
   - ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 # 
 I love challenges and am not afraid to learn. Programming allows be to have and do both.
+Let's chat!
 <!---
 dansilvaUT/dansilvaUT is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.

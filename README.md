@@ -2,7 +2,7 @@
 Software Engineer 👨🏻‍💻.
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=dansilvaUT&show_icons=true)
 
-My tech stack includes the following(all of which I'm proficient in):
+My languages include:
 - Front End
   - ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
   - ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)

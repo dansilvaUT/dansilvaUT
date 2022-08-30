@@ -1,4 +1,4 @@
-# 👋 Hello World, I'm Dan. 
+# 👋 Hello World. 
 Software Engineer 👨🏻‍💻.
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=dansilvaUT&show_icons=true)
 

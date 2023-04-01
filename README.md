@@ -23,7 +23,7 @@ Skills:
   - ![Elixir](https://img.shields.io/badge/elixir-%234B275F.svg?style=for-the-badge&logo=elixir&logoColor=white)
 
 # 
-I love challenges and am not afraid to learn. Programming allows be to have and do both.
+I love challenges and love to learn. Programming allows be to have and do both.
 Let's chat!
 <!---
 dansilvaUT/dansilvaUT is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
